@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="56.172396">
+<testcase classname="Deal data creation" name="Free CRM Create a new deal scenario" time="56.172396">
+<failure message="junit.framework.ComparisonFailure: expected:&lt;[#1 Free CRM for Any Business: Online Customer Relationship Software]&gt; but was:&lt;[Free CRM #1 cloud software for any business large or small]&gt;&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:100)&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:107)&#13;&#10;&#9;at StepDefinition.DealsStepWithMapDefinition.title_of_login_page_is_free_CRM(DealsStepWithMapDefinition.java:37)&#13;&#10;&#9;at ✽.When title of login page is Free CRM(C:/Users/pratmesh/eclipse-workspace/new/BDD_Test/src/main/java/Features/dealsmap.feature:6)&#13;&#10;"><![CDATA[Given user is already on Login Page.........................................passed
+When title of login page is Free CRM........................................failed
+Then user enters username and password......................................skipped
+Then user clicks on login button............................................skipped
+Then user is on home page...................................................skipped
+Then user moves to new deal page............................................skipped
+Then user enters deal details...............................................skipped
+Then Close the browser......................................................skipped
+
+StackTrace:
+junit.framework.ComparisonFailure: expected:<[#1 Free CRM for Any Business: Online Customer Relationship Software]> but was:<[Free CRM #1 cloud software for any business large or small]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at StepDefinition.DealsStepWithMapDefinition.title_of_login_page_is_free_CRM(DealsStepWithMapDefinition.java:37)
+	at ✽.When title of login page is Free CRM(C:/Users/pratmesh/eclipse-workspace/new/BDD_Test/src/main/java/Features/dealsmap.feature:6)
+]]></failure>
+</testcase>
+</testsuite>
